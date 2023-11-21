@@ -166,6 +166,7 @@ const Island = ({ isRotating, setIsRotating, ...props }) => {
     }
   });
 
+
   return (
     <a.group ref={islandRef} {...props}>
       <group position={[-1.342, 0, 0.216]} rotation={[-Math.PI / 2, 0, 0]}>

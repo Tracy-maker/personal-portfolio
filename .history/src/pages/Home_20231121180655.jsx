@@ -54,12 +54,7 @@ const Home = () => {
             groundColor="#000000"
             intensity={1}
           />
-          <Plane
-            isRotating={isRotating}
-            position={biplanePosition}
-            rotation={[0, 20.1, 0]}
-            scale={biplaneScale}
-          />
+          <Plane />
           <Bird />
           <Sky />
           <Island

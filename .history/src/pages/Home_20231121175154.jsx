@@ -7,7 +7,6 @@ import Bird from "../models/bird";
 import Plane from "../models/Plane";
 
 const Home = () => {
-  const [isRotating, setIsRotating] = useState(false);
   const adjustIslandForScreenSize = () => {
     let screenScale = null;
     let screenPosition = [0, -12, -43];
@@ -21,23 +20,9 @@ const Home = () => {
 
     return [screenScale, screenPosition, rotation];
   };
-
-  const adjustBiplaneForScreenSize = () => {
-    let screenScale, screenPosition;
-
-    if (window.innerWidth < 768) {
-      screenScale = [1.5, 1.5, 1.5];
-      screenPosition = [0, -1.5, 0];
-    } else {
-      screenScale = [3, 3, 3];
-      screenPosition = [0, -4, -4];
-    }
-
-    return [screenScale, screenPosition];
-  };
   const [islandScale, islandPosition, islandRotation] =
     adjustIslandForScreenSize();
-  const [biplaneScale, biplanePosition] = adjustBiplaneForScreenSize();
+
   return (
     <section className="w-full h-screen relative">
       <Canvas
@@ -54,20 +39,13 @@ const Home = () => {
             groundColor="#000000"
             intensity={1}
           />
-          <Plane
-            isRotating={isRotating}
-            position={biplanePosition}
-            rotation={[0, 20.1, 0]}
-            scale={biplaneScale}
-          />
+          <Plane />
           <Bird />
           <Sky />
           <Island
             position={islandPosition}
             rotation={islandRotation}
             scale={islandScale}
-            isRotating={isRotating}
-            setIsRotating={setIsRotating}
           />
         </Suspense>
       </Canvas>

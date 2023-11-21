@@ -21,6 +21,8 @@ const Home = () => {
 
     return [screenScale, screenPosition, rotation];
   };
+  const [islandScale, islandPosition, islandRotation] =
+    adjustIslandForScreenSize();
 
   const adjustBiplaneForScreenSize = () => {
     let screenScale, screenPosition;
@@ -35,9 +37,7 @@ const Home = () => {
 
     return [screenScale, screenPosition];
   };
-  const [islandScale, islandPosition, islandRotation] =
-    adjustIslandForScreenSize();
-  const [biplaneScale, biplanePosition] = adjustBiplaneForScreenSize();
+
   return (
     <section className="w-full h-screen relative">
       <Canvas
@@ -54,12 +54,7 @@ const Home = () => {
             groundColor="#000000"
             intensity={1}
           />
-          <Plane
-            isRotating={isRotating}
-            position={biplanePosition}
-            rotation={[0, 20.1, 0]}
-            scale={biplaneScale}
-          />
+          <Plane />
           <Bird />
           <Sky />
           <Island
