@@ -4,12 +4,11 @@ import planeScene from "../assets/3d/plane.glb";
 
 const Plane = ({ isRotating, ...props }) => {
   const ref = useRef();
-  // Load the 3D model and its animations
-  const { scene, animations } = useGLTF(planeScene);
-  // Get animation actions associated with the plane
   const { actions } = useAnimations(animations, ref);
+  const { scene, animations } = useGLTF(planeScene);
 
   useEffect(() => {
+    console.log({ isRotating });
     if (isRotating) {
       actions["Take 001"].play();
     } else {
@@ -19,8 +18,6 @@ const Plane = ({ isRotating, ...props }) => {
 
   return (
     <mesh {...props} ref={ref}>
-      // use the primitive element when you want to directly embed a complex 3D
-      model or scene
       <primitive object={scene} />
     </mesh>
   );

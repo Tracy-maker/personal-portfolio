@@ -70,7 +70,6 @@ const Home = () => {
             scale={islandScale}
             isRotating={isRotating}
             setIsRotating={setIsRotating}
-            setCurrentStage={setCurrentStage}
           />
         </Suspense>
       </Canvas>

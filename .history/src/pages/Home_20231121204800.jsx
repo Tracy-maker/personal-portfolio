@@ -59,7 +59,7 @@ const Home = () => {
           <Plane
             isRotating={isRotating}
             position={biplanePosition}
-            rotation={[0, 20, 0]}
+            rotation={[0, 20.1, 0]}
             scale={biplaneScale}
           />
           <Bird />
@@ -70,7 +70,6 @@ const Home = () => {
             scale={islandScale}
             isRotating={isRotating}
             setIsRotating={setIsRotating}
-            setCurrentStage={setCurrentStage}
           />
         </Suspense>
       </Canvas>

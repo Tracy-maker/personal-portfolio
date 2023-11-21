@@ -71,6 +71,7 @@ const Home = () => {
             isRotating={isRotating}
             setIsRotating={setIsRotating}
             setCurrentStage={setCurrentStage}
+          
           />
         </Suspense>
       </Canvas>
