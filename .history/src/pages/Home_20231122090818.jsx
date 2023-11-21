@@ -3,6 +3,7 @@ import { Canvas } from "@react-three/fiber";
 import Loader from "../components/Loader";
 import Island from "../models/Island";
 import Sky from "../models/Sky";
+import Bird from "../models/bird";
 import Plane from "../models/Plane";
 
 const Home = () => {
@@ -15,7 +16,7 @@ const Home = () => {
     if (window.innerWidth < 768) {
       screenScale = [0.9, 0.9, 0.9];
     } else {
-      screenScale = [10, 10, 10];
+      screenScale = [1, 1, 1];
     }
 
     return [screenScale, screenPosition, rotation];
@@ -61,6 +62,7 @@ const Home = () => {
             rotation={[0, 20, 0]}
             scale={biplaneScale}
           />
+        
           <Sky isRotating={isRotating} />
           <Island
             position={islandPosition}

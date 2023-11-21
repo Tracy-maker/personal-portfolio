@@ -1,20 +1,21 @@
 import React, { useRef } from "react";
-import skyScene from "../assets/3d/sky.glb";
+import SkyScene from "../assets/3d/sky.glb";
 import { useGLTF } from "@react-three/drei";
 import { useFrame } from "react-three-fiber";
 
 const Sky = ({ isRotating }) => {
-  const sky = useGLTF(skyScene);
+  const sky = useGLTF(SkyScene);
   const skyRef = useRef();
 
-  useFrame((_, delta) => {
-    if (isRotating) {
-      skyRef.current.rotation.y += 0.15 * delta;
+  useFrame((_, delta)=>{
+    if(isRotating){
+      skyRef.current.rotation.y += 0.15* delta
     }
-  });
+
+  })
 
   return (
-    <mesh ref={skyRef}>
+    <mesh>
       <primitive object={sky.scene} />
     </mesh>
   );
