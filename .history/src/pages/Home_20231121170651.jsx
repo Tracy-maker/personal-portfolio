@@ -40,11 +40,11 @@ const Home = () => {
           <Plane />
           <Bird />
           <Sky />
-          <Island
+          {/* <Island
             position={islandPosition}
             rotation={islandRotation}
             scale={islandScale}
-          />
+          /> */}
         </Suspense>
       </Canvas>
     </section>

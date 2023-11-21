@@ -37,14 +37,14 @@ const Home = () => {
             groundColor="#000000"
             intensity={1}
           />
-          <Plane />
+          {/* <Plane /> */}
           <Bird />
           <Sky />
-          <Island
+          {/* <Island
             position={islandPosition}
             rotation={islandRotation}
             scale={islandScale}
-          />
+          /> */}
         </Suspense>
       </Canvas>
     </section>
