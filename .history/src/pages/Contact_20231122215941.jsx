@@ -58,10 +58,10 @@ const Contact = () => {
       );
   };
   return (
-    <div className="relative flex lg:flex-row flex-col max-container">
+    <div className="relative h-full flex lg:flex-row flex-col max-container">
       {alert.show && <Alert {...alert} />}
 
-      <div className="flex-1 min-w-[50%] flex flex-col">
+      <div className="flex-1 bg-blue-900 min-w-[50%] flex flex-col">
         <h1 className="head-text">Contact Me</h1>
         <form
           ref={formRef}

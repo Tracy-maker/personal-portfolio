@@ -39,6 +39,7 @@ const Contact = () => {
 
           setTimeout(() => {
             hideAlert(false);
+            setCurrentAnimation("idle");
             setForm({
               name: "",
               email: "",
@@ -48,7 +49,6 @@ const Contact = () => {
         },
         (error) => {
           setLoading(false);
-          console.error(error);
           showAlert({
             show: true,
             text: "I didn't receive your message 😢",
@@ -58,13 +58,13 @@ const Contact = () => {
       );
   };
   return (
-    <div className="relative flex lg:flex-row flex-col max-container">
-      {alert.show && <Alert {...alert} />}
+    <section className="relative h-full flex lg:flex-row flex-col max-container">
+        {alert.show && <Alert {...alert} />}
 
       <div className="flex-1 min-w-[50%] flex flex-col">
         <h1 className="head-text">Contact Me</h1>
         <form
-          ref={formRef}
+         ref={formRef}
           onSubmit={handleSubmit}
           className="w-full flex flex-col gap-7 mt-14"
         >
@@ -114,7 +114,7 @@ const Contact = () => {
           </button>
         </form>
       </div>
-    </div>
+    </section>
   );
 };
 
