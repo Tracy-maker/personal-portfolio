@@ -14,7 +14,7 @@ const About = () => {
         Hello, I'm{" "}
         <span className="blue-gradient_text font-semibold drop-shadow">
           {" "}
-          Sun Yeang Chew
+          Adrian
         </span>{" "}
         👋
       </h1>

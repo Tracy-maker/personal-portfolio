@@ -9,14 +9,14 @@ const Navbar = () => {
       >
         <p className="blue-gradient_text">SunYeang</p>
       </NavLink>
-      <nav className="text-lg font-medium">
+      <nav className="flex text-lg gap-7 font-medium">
         <NavLink
           to="/about"
           className={({ isActive }) =>
             isActive ? "text-blue-500" : "purple-gradient_text"
           }
         >
-          About Me
+          About
         </NavLink>
       </nav>
     </header>
