@@ -40,7 +40,7 @@ const Contact = () => {
   return (
     <section className="relative h-full flex lg:flex-row flex-col max-container">
       <div className="flex-1 min-w-[50%] flex flex-col">
-        <h1 className="head-text">Contact Me</h1>
+        <h1 className="head-text">Get in Touch</h1>
         <form
           onSubmit={handleSubmit}
           className="w-full flex flex-col gap-7 mt-14"
@@ -52,7 +52,7 @@ const Contact = () => {
               name="name"
               value={form.name}
               className="input"
-              onChange={handleChange}
+              handleChange={handleChange}
               placeholder="please enter your name..."
               required
             />
@@ -64,7 +64,7 @@ const Contact = () => {
               value={form.email}
               name="email"
               className="input"
-              onChange={handleChange}
+              handleChange={handleChange}
               placeholder="please enter your email address..."
               required
             />
@@ -76,12 +76,12 @@ const Contact = () => {
               rows="4"
               className="textarea"
               value={form.message}
-              onChange={handleChange}
+              handleChange={handleChange}
               placeholder="Write your thoughts here..."
             />
           </label>
 
-          <button type="submit" className="rounded-lg text-sm w-full sm:w-auto px-5 py-4 text-center text-white bg-blue-900" disabled={loading}>
+          <button type="submit" className="btn" disabled={loading}>
             {loading ? "Sending..." : "Submit"}
           </button>
         </form>

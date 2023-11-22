@@ -81,7 +81,7 @@ const Contact = () => {
             />
           </label>
 
-          <button type="submit" className="rounded-lg text-sm w-full sm:w-auto px-5 py-4 text-center text-white bg-blue-900" disabled={loading}>
+          <button type="submit" className="rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center text-white bg-blue-900" disabled={loading}>
             {loading ? "Sending..." : "Submit"}
           </button>
         </form>
