@@ -5,9 +5,9 @@ import { arrow } from "../assets/icons";
 const InfoBox = ({ text, link, btnText }) => (
   <div className="info-box">
     <p className="font-medium sm:text-xl text-center">{text}</p>
-    <Link to={link} className="neo-brutalism-white neo-btn">
+    <Link to={link}>
       {btnText}
-      <img src={arrow} className="w-5 h-3 object-contain" />
+      <img src={arrow} className="w-4 h-4 object-contain" />
     </Link>
   </div>
 );
@@ -17,7 +17,7 @@ const renderContent = {
     <InfoBox
       text="Seeking a dynamic project collaborator in the realm of electrical engineering and renewable energy?"
       link="/contact"
-      btnText="Please send me a message"
+      btnText=" I'm just a message away, ready to contribute!"
     />
   ),
 

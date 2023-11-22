@@ -1,25 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { arrow } from "../assets/icons";
 
 const InfoBox = ({ text, link, btnText }) => (
   <div className="info-box">
     <p className="font-medium sm:text-xl text-center">{text}</p>
-    <Link to={link} className="neo-brutalism-white neo-btn">
-      {btnText}
-      <img src={arrow} className="w-5 h-3 object-contain" />
-    </Link>
+    <Link to={link}>{btnText}</Link>
   </div>
 );
 
 const renderContent = {
-  1: (
-    <InfoBox
-      text="Seeking a dynamic project collaborator in the realm of electrical engineering and renewable energy?"
-      link="/contact"
-      btnText="Please send me a message"
-    />
-  ),
+  1: <InfoBox 
+  text="Seeking a dynamic project collaborator in the realm of electrical engineering and renewable energy?"/>,
 
   2: <h1></h1>,
   3: (

@@ -17,7 +17,7 @@ const renderContent = {
     <InfoBox
       text="Seeking a dynamic project collaborator in the realm of electrical engineering and renewable energy?"
       link="/contact"
-      btnText="Please send me a message"
+      btnText=" I'm just a message away, ready to contribute!"
     />
   ),
 

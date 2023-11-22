@@ -1,3 +1,10 @@
+
+import { Canvas } from "@react-three/fiber";
+import { Suspense } from "react";
+
+import { Fox } from "../models/Fox";
+
+
 const Contact = () => {
   return (
     <section className="relative flex lg:flex-row flex-col max-container">
@@ -38,6 +45,8 @@ const Contact = () => {
           <button type="submit" className="btn"></button>
         </form>
       </div>
+
+    
     </section>
   );
 };
