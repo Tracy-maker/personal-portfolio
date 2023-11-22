@@ -4,19 +4,18 @@ import Loader from "../components/Loader";
 import Island from "../models/Island";
 import Sky from "../models/Sky";
 import Plane from "../models/Plane";
-import HomeInfo from "../components/HomeInfo";
 
 const Home = () => {
   const [isRotating, setIsRotating] = useState(false);
   const adjustIslandForScreenSize = () => {
     let screenScale = null;
-    let screenPosition = [0, -14, -55];
-    let rotation = [0.1, 5, 0];
+    let screenPosition = [0, -12, -43];
+    let rotation = [0.1, 4.7, 0];
 
     if (window.innerWidth < 768) {
-      screenScale = [1, 1, 1];
+      screenScale = [7, 7, 7];
     } else {
-      screenScale = [5.3, 4, 6];
+      screenScale = [10, 10, 10];
     }
 
     return [screenScale, screenPosition, rotation];
@@ -42,9 +41,6 @@ const Home = () => {
 
   return (
     <section className="w-full h-screen relative">
-      <div className="absolute top-28 left-0 right-0 z-10 flex items-center justify-center">
-        {currentStage && <HomeInfo currentStage={currentStage} />}
-      </div>
       <Canvas
         className={`w-full h-screen bg-transparent ${
           isRotating ? "cursor-grabbing" : "cursor-grab"

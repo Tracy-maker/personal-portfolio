@@ -168,50 +168,69 @@ const Island = ({ isRotating, setIsRotating, setCurrentStage, ...props }) => {
 
   return (
     <a.group ref={islandRef} {...props}>
-      <group rotation={[-Math.PI / 2, 0, 0]}>
-        <mesh geometry={nodes.Object_2.geometry} material={materials.Balloon} />
-        <mesh geometry={nodes.Object_3.geometry} material={materials.Bottles} />
+       <group rotation={[-Math.PI / 2, 0, 0]}>
         <mesh
+         
+          geometry={nodes.Object_2.geometry}
+          material={materials.Balloon}
+        />
+        <mesh
+        
+          geometry={nodes.Object_3.geometry}
+          material={materials.Bottles}
+        />
+        <mesh
+        
           geometry={nodes.Object_4.geometry}
           material={materials.BottomCabins}
         />
         <mesh
+       
           geometry={nodes.Object_5.geometry}
           material={materials.Bottom_WoodTiling}
         />
         <mesh
+         
           geometry={nodes.Object_6.geometry}
           material={materials.CabinGlass}
         />
         <mesh
+        
           geometry={nodes.Object_7.geometry}
           material={materials.Chimney_PBolts}
         />
         <mesh
+        
           geometry={nodes.Object_8.geometry}
           material={materials.ClothesPipeWater}
         />
         <mesh
+          
           geometry={nodes.Object_9.geometry}
           material={materials.CrateBarrel}
         />
         <mesh
+        
           geometry={nodes.Object_10.geometry}
           material={materials.DoorsAndDoorframes}
         />
         <mesh
+         
           geometry={nodes.Object_11.geometry}
           material={materials.FirewoodRope}
         />
         <mesh
+         
           geometry={nodes.Object_12.geometry}
           material={materials.Grass_base}
         />
         <mesh
+         
           geometry={nodes.Object_13.geometry}
           material={materials.Groundrocks}
         />
         <mesh
+       
           geometry={nodes.Object_14.geometry}
           material={materials.House_PlasterWall}
         />
@@ -220,46 +239,57 @@ const Island = ({ isRotating, setIsRotating, setCurrentStage, ...props }) => {
           material={materials.House_Wood_tiling}
         />
         <mesh
+         
           geometry={nodes.Object_16.geometry}
           material={materials.House_Wood_tiling}
         />
         <mesh
+          
           geometry={nodes.Object_17.geometry}
           material={materials.House_Wood_tiling}
         />
         <mesh
+         
           geometry={nodes.Object_18.geometry}
           material={materials.PipeLantern}
         />
         <mesh
+         
           geometry={nodes.Object_19.geometry}
           material={materials.Platform_WoodTiling}
         />
         <mesh
+         
           geometry={nodes.Object_20.geometry}
           material={materials.RoofMaterial}
         />
         <mesh
+         
           geometry={nodes.Object_21.geometry}
           material={materials.RoofMaterial2}
         />
         <mesh
+         
           geometry={nodes.Object_22.geometry}
           material={materials.RoofTiles}
         />
         <mesh
+         
           geometry={nodes.Object_23.geometry}
           material={materials.ShedRoofTiles}
         />
         <mesh
+         
           geometry={nodes.Object_24.geometry}
           material={materials.Shed_PlasterWall}
         />
         <mesh
+          
           geometry={nodes.Object_25.geometry}
           material={materials.Shed_Wood_Tiling}
         />
         <mesh
+         
           geometry={nodes.Object_26.geometry}
           material={materials.StonesChimney}
         />
@@ -270,11 +300,17 @@ const Island = ({ isRotating, setIsRotating, setCurrentStage, ...props }) => {
           material={materials.Test_Wood}
         />
         <mesh
+        
           geometry={nodes.Object_28.geometry}
           material={materials.WindowGlass}
         />
-        <mesh geometry={nodes.Object_29.geometry} material={materials.bell} />
         <mesh
+          
+          geometry={nodes.Object_29.geometry}
+          material={materials.bell}
+        />
+        <mesh
+         
           geometry={nodes.Object_30.geometry}
           material={materials.stone_wall}
         />

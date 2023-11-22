@@ -4,19 +4,18 @@ import Loader from "../components/Loader";
 import Island from "../models/Island";
 import Sky from "../models/Sky";
 import Plane from "../models/Plane";
-import HomeInfo from "../components/HomeInfo";
 
 const Home = () => {
   const [isRotating, setIsRotating] = useState(false);
   const adjustIslandForScreenSize = () => {
     let screenScale = null;
-    let screenPosition = [0, -14, -55];
+    let screenPosition = [0, -12, -44];
     let rotation = [0.1, 5, 0];
 
     if (window.innerWidth < 768) {
-      screenScale = [1, 1, 1];
+      screenScale = [10, 10, 10];
     } else {
-      screenScale = [5.3, 4, 6];
+      screenScale = [12, 12, 12];
     }
 
     return [screenScale, screenPosition, rotation];

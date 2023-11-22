@@ -168,50 +168,82 @@ const Island = ({ isRotating, setIsRotating, setCurrentStage, ...props }) => {
 
   return (
     <a.group ref={islandRef} {...props}>
-      <group rotation={[-Math.PI / 2, 0, 0]}>
-        <mesh geometry={nodes.Object_2.geometry} material={materials.Balloon} />
-        <mesh geometry={nodes.Object_3.geometry} material={materials.Bottles} />
+       <group rotation={[-Math.PI / 2, 0, 0]}>
         <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.Object_2.geometry}
+          material={materials.Balloon}
+        />
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.Object_3.geometry}
+          material={materials.Bottles}
+        />
+        <mesh
+          castShadow
+          receiveShadow
           geometry={nodes.Object_4.geometry}
           material={materials.BottomCabins}
         />
         <mesh
+          castShadow
+          receiveShadow
           geometry={nodes.Object_5.geometry}
           material={materials.Bottom_WoodTiling}
         />
         <mesh
+          castShadow
+          receiveShadow
           geometry={nodes.Object_6.geometry}
           material={materials.CabinGlass}
         />
         <mesh
+          castShadow
+          receiveShadow
           geometry={nodes.Object_7.geometry}
           material={materials.Chimney_PBolts}
         />
         <mesh
+          castShadow
+          receiveShadow
           geometry={nodes.Object_8.geometry}
           material={materials.ClothesPipeWater}
         />
         <mesh
+          castShadow
+          receiveShadow
           geometry={nodes.Object_9.geometry}
           material={materials.CrateBarrel}
         />
         <mesh
+          castShadow
+          receiveShadow
           geometry={nodes.Object_10.geometry}
           material={materials.DoorsAndDoorframes}
         />
         <mesh
+          castShadow
+          receiveShadow
           geometry={nodes.Object_11.geometry}
           material={materials.FirewoodRope}
         />
         <mesh
+          castShadow
+          receiveShadow
           geometry={nodes.Object_12.geometry}
           material={materials.Grass_base}
         />
         <mesh
+          castShadow
+          receiveShadow
           geometry={nodes.Object_13.geometry}
           material={materials.Groundrocks}
         />
         <mesh
+          castShadow
+          receiveShadow
           geometry={nodes.Object_14.geometry}
           material={materials.House_PlasterWall}
         />
@@ -220,46 +252,68 @@ const Island = ({ isRotating, setIsRotating, setCurrentStage, ...props }) => {
           material={materials.House_Wood_tiling}
         />
         <mesh
+          castShadow
+          receiveShadow
           geometry={nodes.Object_16.geometry}
           material={materials.House_Wood_tiling}
         />
         <mesh
+          castShadow
+          receiveShadow
           geometry={nodes.Object_17.geometry}
           material={materials.House_Wood_tiling}
         />
         <mesh
+          castShadow
+          receiveShadow
           geometry={nodes.Object_18.geometry}
           material={materials.PipeLantern}
         />
         <mesh
+          castShadow
+          receiveShadow
           geometry={nodes.Object_19.geometry}
           material={materials.Platform_WoodTiling}
         />
         <mesh
+          castShadow
+          receiveShadow
           geometry={nodes.Object_20.geometry}
           material={materials.RoofMaterial}
         />
         <mesh
+          castShadow
+          receiveShadow
           geometry={nodes.Object_21.geometry}
           material={materials.RoofMaterial2}
         />
         <mesh
+          castShadow
+          receiveShadow
           geometry={nodes.Object_22.geometry}
           material={materials.RoofTiles}
         />
         <mesh
+          castShadow
+          receiveShadow
           geometry={nodes.Object_23.geometry}
           material={materials.ShedRoofTiles}
         />
         <mesh
+          castShadow
+          receiveShadow
           geometry={nodes.Object_24.geometry}
           material={materials.Shed_PlasterWall}
         />
         <mesh
+          castShadow
+          receiveShadow
           geometry={nodes.Object_25.geometry}
           material={materials.Shed_Wood_Tiling}
         />
         <mesh
+          castShadow
+          receiveShadow
           geometry={nodes.Object_26.geometry}
           material={materials.StonesChimney}
         />
@@ -270,11 +324,20 @@ const Island = ({ isRotating, setIsRotating, setCurrentStage, ...props }) => {
           material={materials.Test_Wood}
         />
         <mesh
+          castShadow
+          receiveShadow
           geometry={nodes.Object_28.geometry}
           material={materials.WindowGlass}
         />
-        <mesh geometry={nodes.Object_29.geometry} material={materials.bell} />
         <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.Object_29.geometry}
+          material={materials.bell}
+        />
+        <mesh
+          castShadow
+          receiveShadow
           geometry={nodes.Object_30.geometry}
           material={materials.stone_wall}
         />

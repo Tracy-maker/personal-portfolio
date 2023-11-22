@@ -10,7 +10,7 @@ const Home = () => {
   const [isRotating, setIsRotating] = useState(false);
   const adjustIslandForScreenSize = () => {
     let screenScale = null;
-    let screenPosition = [0, -14, -55];
+    let screenPosition = [0, -14, -44];
     let rotation = [0.1, 5, 0];
 
     if (window.innerWidth < 768) {

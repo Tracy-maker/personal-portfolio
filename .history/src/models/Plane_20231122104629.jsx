@@ -19,6 +19,7 @@ const Plane = ({ isRotating, ...props }) => {
 
   return (
     <mesh {...props} ref={ref}>
+    
       <primitive object={scene} />
     </mesh>
   );
