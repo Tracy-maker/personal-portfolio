@@ -36,15 +36,12 @@ const About = () => {
       <div className="py-10 flex flex-col">
         <h3 className="subhead-text">My Skills</h3>
 
-        <div className="mt-16 flex flex-wrap gap-12">
+        <div className="mt-16 flex flex-wrap gap-12 bg-blue-200">
           {skills.map((skill) => (
-            <div className="block-container w-32 h-32" key={skill.name}>
-              <div className="btn-back rounded-xl bg-blue-300" />
+            <div className="block-container w-20 h-20" key={skill.name}>
+              <div className="btn-back rounded-xl" />
               <div className="btn-front rounded-xl flex justify-center items-center">
-                <div
-                 
-                  className="w-1/2 h-1/2 object-contain"
-                >{skill.name}</div>
+                <div className="w-1/2 h-1/2 object-contain">{skill.name}</div>
               </div>
             </div>
           ))}

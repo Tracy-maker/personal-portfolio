@@ -64,12 +64,32 @@ export const skills = [
     type: "Frontend",
   },
   {
-    name: "Flutter",
+    name: "Next.js",
     type: "Frontend",
   },
   {
-    name: "Kotlin",
+    name: "Node.js",
     type: "Backend",
+  },
+  {
+    name: "React",
+    type: "Frontend",
+  },
+  {
+    name: "Redux",
+    type: "State Management",
+  },
+  {
+    name: "Sass",
+    type: "Frontend",
+  },
+  {
+    name: "Tailwind CSS",
+    type: "Frontend",
+  },
+  {
+    name: "TypeScript",
+    type: "Frontend",
   },
 ];
 

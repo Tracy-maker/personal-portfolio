@@ -71,6 +71,26 @@ export const skills = [
     name: "Kotlin",
     type: "Backend",
   },
+  {
+    name: "React",
+    type: "Frontend",
+  },
+  {
+    name: "Redux",
+    type: "State Management",
+  },
+  {
+    name: "Sass",
+    type: "Frontend",
+  },
+  {
+    name: "Tailwind CSS",
+    type: "Frontend",
+  },
+  {
+    name: "TypeScript",
+    type: "Frontend",
+  },
 ];
 
 export const experiences = [

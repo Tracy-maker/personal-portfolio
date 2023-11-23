@@ -44,32 +44,52 @@ export const skills = [
     type: "Programming languages",
   },
   {
-    name: "MATLAB",
-    type: "multi-paradigm programming language",
+    name: "HTML",
+    type: "Frontend",
   },
   {
-    name: "Simulink",
-    type: "graphical programming",
+    name: "JavaScript",
+    type: "Frontend",
   },
   {
-    name: "Multisim",
+    name: "MongoDB",
     type: "Database",
   },
   {
-    name: "SolidWork",
+    name: "Motion",
     type: "Animation",
   },
   {
-    name: "AutoCAD",
+    name: "Material-UI",
     type: "Frontend",
   },
   {
-    name: "Flutter",
+    name: "Next.js",
     type: "Frontend",
   },
   {
-    name: "Kotlin",
+    name: "Node.js",
     type: "Backend",
+  },
+  {
+    name: "React",
+    type: "Frontend",
+  },
+  {
+    name: "Redux",
+    type: "State Management",
+  },
+  {
+    name: "Sass",
+    type: "Frontend",
+  },
+  {
+    name: "Tailwind CSS",
+    type: "Frontend",
+  },
+  {
+    name: "TypeScript",
+    type: "Frontend",
   },
 ];
 
