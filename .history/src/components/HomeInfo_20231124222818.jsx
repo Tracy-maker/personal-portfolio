@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { arrow } from "../assets/icons";
 
-const InfoBox = ({ text, link, btnText,isNewTab }) => (
+const InfoBox = ({ text, link, btnText }) => (
   <div className="info-box">
     <p className="font-medium sm:text-xl text-center">{text}</p>
     <Link to={link} className="neo-brutalism-white neo-btn">
@@ -23,9 +23,9 @@ const renderContent = {
 
   2: (
     <InfoBox
-      text="To discover my key achievements during my time at RMIT."
-      link = "https://www.rmit.edu.au/about/schools-colleges/engineering/research/research-groups/rapid-discovery-and-fabrication/rdf-team/sun-yeang-chew"
-      btnText="click on the link"
+      text="Seeking a dynamic project collaborator in the realm of electrical engineering and renewable energy?"
+      link="/contact"
+      btnText="Please send me a message"
     />
   ),
   3: (
@@ -35,13 +35,6 @@ const renderContent = {
       An electrical engineer with a passion for renewable energy. Let's innovate
       together! 💡⚡
     </h1>
-  ),
-  4: (
-    <InfoBox
-      text="Seeking a dynamic project collaborator in the realm of electrical engineering and renewable energy?"
-      link="/contact"
-      btnText="Please send me a message"
-    />
   ),
 };
 
