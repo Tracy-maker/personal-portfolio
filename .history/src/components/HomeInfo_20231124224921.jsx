@@ -44,9 +44,9 @@ const renderContent = {
   ),
   4: (
     <InfoBox
-      text="If you want to know more about me, please download my CV."
-      link="https://docs.google.com/document/d/1KKzIxARj86WlHzWBrBCEpnjJ-5XH2eNF/edit#heading=h.30j0zll"
-      btnText="clicking on the link"
+      text="To discover my key achievements during my time at RMIT."
+      link="https://www.rmit.edu.au/about/schools-colleges/engineering/research/research-groups/rapid-discovery-and-fabrication/rdf-team/sun-yeang-chew"
+      btnText="click on the link"
       isNewTab={true} 
     />
   ),

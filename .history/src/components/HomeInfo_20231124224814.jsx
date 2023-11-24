@@ -23,15 +23,16 @@ const renderContent = {
       text="Seeking a dynamic project collaborator in the realm of electrical engineering and renewable energy?"
       link="/contact"
       btnText="Please send me a message"
-      isNewTab={false} 
+      isNewTab={false} // Set to true if you want to open in a new tab
     />
   ),
+
+
   2: (
     <InfoBox
       text="To discover my key achievements during my time at RMIT."
-      link="https://www.rmit.edu.au/about/schools-colleges/engineering/research/research-groups/rapid-discovery-and-fabrication/rdf-team/sun-yeang-chew"
+      link = "https://www.rmit.edu.au/about/schools-colleges/engineering/research/research-groups/rapid-discovery-and-fabrication/rdf-team/sun-yeang-chew"
       btnText="click on the link"
-      isNewTab={true} 
     />
   ),
   3: (
@@ -44,10 +45,9 @@ const renderContent = {
   ),
   4: (
     <InfoBox
-      text="If you want to know more about me, please download my CV."
-      link="https://docs.google.com/document/d/1KKzIxARj86WlHzWBrBCEpnjJ-5XH2eNF/edit#heading=h.30j0zll"
-      btnText="clicking on the link"
-      isNewTab={true} 
+      text="Seeking a dynamic project collaborator in the realm of electrical engineering and renewable energy?"
+      link="/contact"
+      btnText="Please send me a message"
     />
   ),
 };
