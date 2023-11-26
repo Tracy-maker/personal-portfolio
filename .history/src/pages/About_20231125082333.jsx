@@ -41,7 +41,10 @@ const About = () => {
             <div className="block-container w-32 h-32" key={skill.name}>
               <div className="btn-back rounded-xl bg-blue-300" />
               <div className="btn-front rounded-xl flex justify-center items-center">
-                <div className="w-1/2 h-1/2 object-contain">{skill.name}</div>
+                <div
+                 
+                  className="w-1/2 h-1/2 object-contain"
+                >{skill.name}</div>
               </div>
             </div>
           ))}
@@ -49,12 +52,11 @@ const About = () => {
       </div>
 
       <div className="py-16">
-        <h3 className="subhead-text">My Experience</h3>
+        <h3 className="subhead-text">My Experience.</h3>
         <div className="mt-5 flex flex-col gap-3 text-slate-500">
           <p>
-            I've engaged in diverse educational and professional environments,
-            honing my skills and collaborating with talented individuals. Here's
-            an overview:
+            I've worked with all sorts of companies, leveling up my skills and
+            teaming up with smart people. Here's the rundown:
           </p>
         </div>
 

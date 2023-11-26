@@ -1,15 +1,22 @@
 import { meta, shopify, starbucks, tesla } from "../assets/images";
-
 import {
   car,
   contact,
+ 
   estate,
+ 
+ 
   github,
+ 
   linkedin,
+  
   pricewise,
+  
   snapgram,
   summiz,
+  
   threads,
+  
 } from "../assets/icons";
 
 export const skills = [
@@ -68,7 +75,7 @@ export const experiences = [
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
-    },
+  },
   {
     title: "React Native Developer",
     company_name: "Tesla",

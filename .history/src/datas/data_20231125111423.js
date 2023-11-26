@@ -1,5 +1,5 @@
 import { meta, shopify, starbucks, tesla } from "../assets/images";
-
+import StarIcon from 'heroicons-react/solid/star';
 import {
   car,
   contact,
@@ -59,7 +59,7 @@ export const experiences = [
   {
     title: "React.js Developer",
     company_name: "Starbucks",
-    icon: starbucks,
+    icon: <StarIcon className="h-6 w-6 text-white" />,
     iconBg: "#accbe1",
     date: "March 2020 - April 2021",
     points: [

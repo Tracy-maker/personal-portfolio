@@ -1,5 +1,5 @@
 import { meta, shopify, starbucks, tesla } from "../assets/images";
-
+import StarIcon from 'heroicons-react/solid/star';
 import {
   car,
   contact,
@@ -59,14 +59,14 @@ export const experiences = [
   {
     title: "React.js Developer",
     company_name: "Starbucks",
-    icon: starbucks,
+    icon: <StarIcon className="h-6 w-6 text-white" />,
     iconBg: "#accbe1",
     date: "March 2020 - April 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+    "Developing and maintaining web applications using React.js and other related technologies.",
+    "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    "Implementing responsive design and ensuring cross-browser compatibility.",
+    "Participating in code reviews and providing constructive feedback to other developers.",
     ],
     },
   {
