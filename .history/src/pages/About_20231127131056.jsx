@@ -26,7 +26,7 @@ const About = () => {
             alt="281701049676-pic"
             className="min-w-fit rounded-3xl md:min-w-0 md:w-1/3 "
           />
-          <p className="tracking-wide leading-10 md:w-2/3">
+          <p className="tracking-wide leading-10 ">
             Absolutely thrilled to introduce myself as a motivated electrical
             and electronic engineer fueled by a profound passion for renewable
             energy, IoT, and automation. My commitment lies in harnessing

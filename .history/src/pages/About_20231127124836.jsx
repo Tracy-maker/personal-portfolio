@@ -20,25 +20,19 @@ const About = () => {
       </h1>
 
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
-        <div className=" flex flex-col gap-3 md:flex-row md:gap-9">
-          <img
-            src="https://i.ibb.co/jrgRNJT/281701049676-pic.png"
-            alt="281701049676-pic"
-            className="min-w-fit rounded-3xl md:min-w-0 md:w-1/3 "
-          />
-          <p className="tracking-wide leading-10 md:w-2/3">
-            Absolutely thrilled to introduce myself as a motivated electrical
-            and electronic engineer fueled by a profound passion for renewable
-            energy, IoT, and automation. My commitment lies in harnessing
-            technical expertise and an innovative mindset to catalyze positive
-            change globally. On the lookout for a challenging role where I can
-            actively contribute to the development and implementation of
-            sustainable energy solutions. Eager to learn, grow, and make a
-            significant impact in a dynamic and collaborative environment. Join
-            me on this journey to shape the future of clean and efficient
-            technologies! 🌍🔧✨
-          </p>
-        </div>
+       
+      <img src="https://i.ibb.co/jrgRNJT/281701049676-pic.png" alt="281701049676-pic" border="0"/>
+        <p>
+          Absolutely thrilled to introduce myself as a motivated electrical and
+          electronic engineer fueled by a profound passion for renewable energy,
+          IoT, and automation. My commitment lies in harnessing technical
+          expertise and an innovative mindset to catalyze positive change
+          globally. On the lookout for a challenging role where I can actively
+          contribute to the development and implementation of sustainable energy
+          solutions. Eager to learn, grow, and make a significant impact in a
+          dynamic and collaborative environment. Join me on this journey to
+          shape the future of clean and efficient technologies! 🌍🔧✨
+        </p>
       </div>
 
       <div className="py-10 flex flex-col">
@@ -75,7 +69,9 @@ const About = () => {
                 iconStyle={{ background: experience.iconBg }}
                 icon={
                   <div className="flex justify-center items-center w-full h-full">
-                    <div className="w-[60%] h-[60%] object-contain" />
+                    <div
+                      className="w-[60%] h-[60%] object-contain"
+                    />
                   </div>
                 }
                 contentStyle={{
