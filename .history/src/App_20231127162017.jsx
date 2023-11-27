@@ -15,6 +15,8 @@ export default function App() {
             element={
               <>
                 <Routes>
+                
+              
                   <Route path='/contact' element={<Contact />} />
                 </Routes>
                 <Footer />
