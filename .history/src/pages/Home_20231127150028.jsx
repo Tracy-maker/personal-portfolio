@@ -1,6 +1,5 @@
 import { Suspense, useEffect, useRef, useState } from "react";
 import { Canvas } from "@react-three/fiber";
-import { extend } from '@react-three/fiber'
 import Loader from "../components/Loader";
 import Island from "../models/Island";
 import Sky from "../models/Sky";

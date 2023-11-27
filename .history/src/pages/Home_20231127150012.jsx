@@ -1,6 +1,5 @@
 import { Suspense, useEffect, useRef, useState } from "react";
 import { Canvas } from "@react-three/fiber";
-import { extend } from '@react-three/fiber'
 import Loader from "../components/Loader";
 import Island from "../models/Island";
 import Sky from "../models/Sky";
@@ -31,7 +30,7 @@ const Home = () => {
     let rotation = [0.1, -10, 0];
 
     if (window.innerWidth < 768) {
-      screenScale = [3, 2, 3];
+      screenScale = [4, 3, 4];
     } else {
       screenScale = [4, 3, 4];
     }
