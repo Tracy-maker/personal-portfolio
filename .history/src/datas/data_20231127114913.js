@@ -101,9 +101,9 @@ export const experiences = [
     ],
   },
   {
-    title: "Process Engineer Intern (full-time)",
-    company_name: "Walkinshawn Group, Clayton",
-    iconBg: "#8F2D7A",
+    title:"",
+   company_name: "RMIT University",
+    iconBg: "#a2d2ff",
     date: "Nov 2020 – Feb 2023",
     points: [
       "Conducted an exploratory analysis on the application of simultaneous localization and mapping (SLAM) in cold spray additive manufacturing.",

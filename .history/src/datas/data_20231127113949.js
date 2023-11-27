@@ -89,8 +89,7 @@ export const experiences = [
     ],
   },
   {
-    title:
-      "Master of Engineering (Mechanical, Mechatronics & Manufacturing) (Research)",
+    title: "Master of Engineering (Mechanical, Mechatronics & Manufacturing) (Research)",
     company_name: "RMIT University",
     iconBg: "#a2d2ff",
     date: "Nov 2020 – Feb 2023",
@@ -98,39 +97,7 @@ export const experiences = [
       "Conducted an exploratory analysis on the application of simultaneous localization and mapping (SLAM) in cold spray additive manufacturing.",
       "Implemented and assessed various 3D reconstruction algorithms and 3D vision-based sensors to identify their limitations in this manufacturing environment.",
       "Developed a heuristic approach for sensor selection based on 3D reconstruction methods, involving modeling, simulation, testing datasets, and evaluation to enhance solutions.",
-    ],
-  },
-  {
-    title: "Process Engineer Intern (full-time)",
-    company_name: "Walkinshawn Group, Clayton",
-    iconBg: "#8F2D7A",
-    date: "Nov 2020 – Feb 2023",
-    points: [
-      "Conducted an exploratory analysis on the application of simultaneous localization and mapping (SLAM) in cold spray additive manufacturing.",
-      "Implemented and assessed various 3D reconstruction algorithms and 3D vision-based sensors to identify their limitations in this manufacturing environment.",
-      "Developed a heuristic approach for sensor selection based on 3D reconstruction methods, involving modeling, simulation, testing datasets, and evaluation to enhance solutions.",
-    ],
-  },
-  {
-    title: "",
-    company_name: "RMIT University",
-    iconBg: "#a2d2ff",
-    date: "Nov 2020 – Feb 2023",
-    points: [
-      "Conducted an exploratory analysis on the application of simultaneous localization and mapping (SLAM) in cold spray additive manufacturing.",
-      "Implemented and assessed various 3D reconstruction algorithms and 3D vision-based sensors to identify their limitations in this manufacturing environment.",
-      "Developed a heuristic approach for sensor selection based on 3D reconstruction methods, involving modeling, simulation, testing datasets, and evaluation to enhance solutions.",
-    ],
-  },
-  {
-    title: "",
-    company_name: "RMIT University",
-    iconBg: "#a2d2ff",
-    date: "Nov 2020 – Feb 2023",
-    points: [
-      "Conducted an exploratory analysis on the application of simultaneous localization and mapping (SLAM) in cold spray additive manufacturing.",
-      "Implemented and assessed various 3D reconstruction algorithms and 3D vision-based sensors to identify their limitations in this manufacturing environment.",
-      "Developed a heuristic approach for sensor selection based on 3D reconstruction methods, involving modeling, simulation, testing datasets, and evaluation to enhance solutions.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
 ];
