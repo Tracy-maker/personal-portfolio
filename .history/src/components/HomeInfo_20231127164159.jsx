@@ -2,7 +2,7 @@ import React from "react";
 import { arrow } from "../assets/icons";
 import { Link } from "react-router-dom";
 
-const InfoBox = ({ text, Link, link, btnText, isNewTab }) => (
+const InfoBox = ({ text, Link,  link, btnText,isNewTab }) => (
   <div className="info-box">
     <p className="font-medium sm:text-xl text-center">{text}</p>
     <a
@@ -19,24 +19,30 @@ const InfoBox = ({ text, Link, link, btnText, isNewTab }) => (
 
 const renderContent = {
   1: (
-    <div className="info-box">
-      <p className="font-medium sm:text-xl text-center">
-        Seeking a dynamic project collaborator in the realm of electrical
-        engineering and renewable energy?
-      </p>
+    <InfoBox
+      text=""
+     
+      btnText=""
+      isNewTab={false} 
+    />
 
-      <Link to="/contact" className="neo-brutalism-white neo-btn">
-        Please send me a message
-        <img src={arrow} alt="arrow" className="w-4 h-4 object-contain" />
-      </Link>
-    </div>
+    <div className='info-box'>
+    <p className='font-medium sm:text-xl text-center'>
+    Seeking a dynamic project collaborator in the realm of electrical engineering and renewable energy?
+    </p>
+
+    <Link to='/contact' className='neo-brutalism-white neo-btn'>
+    Please send me a message
+      <img src={arrow} alt='arrow' className='w-4 h-4 object-contain' />
+    </Link>
+  </div>
   ),
   2: (
     <InfoBox
       text="To discover my key achievements during my time at RMIT."
       link="https://www.rmit.edu.au/about/schools-colleges/engineering/research/research-groups/rapid-discovery-and-fabrication/rdf-team/sun-yeang-chew"
       btnText="click on the link"
-      isNewTab={true}
+      isNewTab={true} 
     />
   ),
   3: (
@@ -52,7 +58,7 @@ const renderContent = {
       text="If you want to know more about me, please download my CV."
       link="https://docs.google.com/document/d/1KKzIxARj86WlHzWBrBCEpnjJ-5XH2eNF/edit#heading=h.30j0zll"
       btnText="clicking on the link"
-      isNewTab={true}
+      isNewTab={true} 
     />
   ),
 };
