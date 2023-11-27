@@ -115,7 +115,7 @@ export const experiences = [
   {
     title: "Online Personal Shopper (part-time)",
     company_name: "Woolworths, Port Melbourne	",
-    iconBg: "#3C9E1B",
+    iconBg: "#a2d2ff",
     date: "Feb 2023 - Current",
     points: [
       "Maintain a high level of quality service by paying close attention to the detail of selected items.",
@@ -126,7 +126,7 @@ export const experiences = [
   {
     title: "Product Tester (full-time) ",
     company_name: "Kogan.com, South Melbourne ",
-    iconBg: "#E64892",
+    iconBg: "#a2d2ff",
     date: "Sep 2023 – Current",
     points: [
       "Conducted an exploratory analysis on the application of simultaneous localization and mapping (SLAM) in cold spray additive manufacturing.",

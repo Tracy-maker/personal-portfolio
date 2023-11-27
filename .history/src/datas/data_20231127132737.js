@@ -115,19 +115,19 @@ export const experiences = [
   {
     title: "Online Personal Shopper (part-time)",
     company_name: "Woolworths, Port Melbourne	",
-    iconBg: "#3C9E1B",
-    date: "Feb 2023 - Current",
+    iconBg: "#a2d2ff",
+    date: "Feb 2023 - current",
     points: [
       "Maintain a high level of quality service by paying close attention to the detail of selected items.",
-      "Handle unforeseen circumstances with strong problem-solving skills to provide suitable alternatives solutions that meet customers' needs.",
-      "Inventory management includes accurately tracking stock levels, monitoring product availability, and coordinating with the supermarket's inventory management system.",
+      "Implemented and assessed various 3D reconstruction algorithms and 3D vision-based sensors to identify their limitations in this manufacturing environment.",
+      "Developed a heuristic approach for sensor selection based on 3D reconstruction methods, involving modeling, simulation, testing datasets, and evaluation to enhance solutions.",
     ],
   },
   {
-    title: "Product Tester (full-time) ",
-    company_name: "Kogan.com, South Melbourne ",
-    iconBg: "#E64892",
-    date: "Sep 2023 – Current",
+    title: "",
+    company_name: "RMIT University",
+    iconBg: "#a2d2ff",
+    date: "Nov 2020 – Feb 2023",
     points: [
       "Conducted an exploratory analysis on the application of simultaneous localization and mapping (SLAM) in cold spray additive manufacturing.",
       "Implemented and assessed various 3D reconstruction algorithms and 3D vision-based sensors to identify their limitations in this manufacturing environment.",
