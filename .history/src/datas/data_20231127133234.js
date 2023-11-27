@@ -1,3 +1,4 @@
+
 export const skills = [
   {
     name: "C, C++",

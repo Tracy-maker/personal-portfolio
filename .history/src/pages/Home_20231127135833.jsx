@@ -61,8 +61,7 @@ const Home = () => {
       <div className="absolute top-28 left-0 right-0 z-10 flex items-center justify-center">
         {currentStage && <HomeInfo currentStage={currentStage} />}
       </div>
-
-      <Canvas
+      <CanvasLoader
         className={`w-full h-screen bg-transparent ${
           isRotating ? "cursor-grabbing" : "cursor-grab"
         }`}
@@ -84,17 +83,15 @@ const Home = () => {
           />
           <Sky isRotating={isRotating} />
           <Island
-           isRotating={isRotating}
-           setIsRotating={setIsRotating}
-           setCurrentStage={setCurrentStage}
-           position={islandPosition}
-           rotation={[0.1, 4.7077, 0]}
-           scale={islandScale}
+            position={islandPosition}
+            rotation={islandRotation}
+            scale={islandScale}
+            isRotating={isRotating}
+            setIsRotating={setIsRotating}
+            setCurrentStage={setCurrentStage}
           />
         </Suspense>
-      </Canvas>
-
-
+      </CanvasLoader>
       <div className="absolute bottom-2 left-2">
         <img
           src={!isPlayingMusic ? soundoff : soundon}
