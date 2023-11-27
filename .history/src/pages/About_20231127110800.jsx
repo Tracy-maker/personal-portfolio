@@ -60,7 +60,7 @@ const About = () => {
 
         <div className="mt-12 flex">
           <VerticalTimeline>
-            {experiences.map((experience) => (
+            {experiences.map((experience, index) => (
               <VerticalTimelineElement
                 key={experience.company_name}
                 date={experience.date}
@@ -68,6 +68,8 @@ const About = () => {
                 icon={
                   <div className="flex justify-center items-center w-full h-full">
                     <div
+                      src={experience.icon}
+                      alt={experience.company_name}
                       className="w-[60%] h-[60%] object-contain"
                     />
                   </div>

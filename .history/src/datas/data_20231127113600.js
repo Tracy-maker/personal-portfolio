@@ -92,7 +92,7 @@ export const experiences = [
     title: "Master of Engineering (Mechanical, Mechatronics & Manufacturing) (Research)",
     company_name: "RMIT University",
     iconBg: "#a2d2ff",
-    date: "Nov 2020 – Feb 2023",
+    date: "Nov 2020 – Feb 2023 ",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
